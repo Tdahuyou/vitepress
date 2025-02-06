@@ -1,0 +1,27 @@
+{
+  "scripts": {
+    "distribute": "      node ./node_modules/tnotes   --distributeREADME    --repoName=vitepress",
+    "docs:publish": "    node ./node_modules/tnotes/scripts/docs-publish.js",
+    "merge": "           node ./node_modules/tnotes   --mergeREADME         --repoName=vitepress",
+    "sync": "            node ./node_modules/tnotes   --syncREADME          --repoName=vitepress",
+    "update": "          node ./node_modules/tnotes   --updateREADME        --repoName=vitepress"
+  },
+  "tnotesConfig": {
+    "dirList": {
+      ".git": {
+        "ignore": true
+      },
+      ".vscode": {
+        "ignore": true
+      },
+      "0001": {
+        "bilibili": [],
+        "done": false,
+        "ignore": false
+      },
+      "assets": {
+        "ignore": true
+      }
+    }
+  }
+}
