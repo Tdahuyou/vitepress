@@ -1,9 +1,10 @@
-#
+# [0001. 安装 vitepress](https://github.com/Tdahuyou/vitepress/tree/main/0001.%20%E5%AE%89%E8%A3%85%20vitepress)
 
 <!-- region:toc -->
+- [1. 📒 基本流程](#1--基本流程)
 <!-- endregion:toc -->
 
-## 📒 基本流程
+## 1. 📒 基本流程
 
 ```bash
 # 安装 vitepress
